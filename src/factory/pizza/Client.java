@@ -4,6 +4,8 @@ import factory.pizza.factory.PizzaFactory;
 import factory.pizza.factory.PizzaType;
 import factory.pizza.pizzas.Pizza;
 
+import java.util.Calendar;
+
 public class Client {
 
     public static void main(String[] args) {
@@ -15,5 +17,6 @@ public class Client {
         pizza.cut();
         pizza.box();
 
+        Integer.valueOf(1);
     }
 }
