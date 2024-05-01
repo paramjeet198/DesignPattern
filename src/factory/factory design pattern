@@ -1,3 +1,7 @@
+
+################################  Factory Design pattern ################################
+
+
 # The Factory Design pattern is the creational design pattern.
 # It defines an interface or an abstract class for creating objects.
 # It is useful when we have a super class with multiple subclasses.
@@ -5,10 +9,15 @@
 # The client code interacts with the factory to obtain desired objects on the basis of given input.
 
 
-BENEFITS of Factory Design pattern:
+BENEFITS:
 # Loose Coupling: Client code doesn't directly depend on concrete classes.
 # Flexibility: Factory dynamically creates objects based on input.
 # Centralized Control: Object creation logic is centralized, simplifying maintenance.
 
 
 
+STEPS:
+# Create Interface or Abstract class with common methods.
+# Create concrete classes by implementing or extending the super class.
+# Create Factory Class and create a method which create instances on the basis of user input.
+# Use the factory in client code to get the desired instance.
