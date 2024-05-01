@@ -21,3 +21,6 @@ STEPS:
 # Create concrete classes by implementing or extending the super class.
 # Create Factory Class and create a method which create instances on the basis of user input.
 # Use the factory in client code to get the desired instance.
+
+
+https://dzone.com/articles/design-patterns-for-beginners-with-java-examples
